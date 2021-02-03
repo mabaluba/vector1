@@ -31,6 +31,7 @@ namespace vector1
         static void Main(string[] args)
         {
             //заккомментил потомучто не работает
+            // add some comment
             //Console.WriteLine(GeometryTasks.Geometry.GetLength());
             //Console.WriteLine(GeometryTasks.Geometry.Add(10, 20));
 
