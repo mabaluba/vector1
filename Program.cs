@@ -18,7 +18,7 @@ namespace GeometryTasks
         public static Vector Add(Vector x, Vector y)
         {
             var dV = new Vector();
-            dV.X = x.X+y.X;
+            dV.X = x.X-y.X;//сделал -
             dV.Y = x.Y+y.Y;
             return dV;
         }
@@ -30,6 +30,7 @@ namespace vector1
     {
         static void Main(string[] args)
         {
+            //заккомментил потомучто не работает
             //Console.WriteLine(GeometryTasks.Geometry.GetLength());
             //Console.WriteLine(GeometryTasks.Geometry.Add(10, 20));
 
