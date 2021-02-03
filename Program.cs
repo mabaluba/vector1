@@ -6,11 +6,6 @@ namespace GeometryTasks
     {
         public double X;
         public double Y;
-        //public void GetCoord(double x,double y)
-        //{
-        //    X = x;
-        //    Y = y;
-        //}
     }
     public class Geometry
     {
