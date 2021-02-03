@@ -24,7 +24,7 @@ namespace GeometryTasks
         {
             var dV = new Vector();
             dV.X = x.X+y.X;//не менять
-            dV.Y = x.Y+y.Y;
+            dV.Y = x.Y-y.Y;//здесь тоже сделал -
             return dV;
         }
     }
