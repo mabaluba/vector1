@@ -19,7 +19,7 @@ namespace GeometryTasks
         {
             var dV = new Vector();
             dV.X = x.X+y.X;
-            dV.Y = x.Y+y.Y+y.X;//изменил формулу
+            dV.Y = x.Y+y.Y;//изменил формулу
             return dV;
         }
     }
