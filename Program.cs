@@ -23,7 +23,7 @@ namespace GeometryTasks
         public static Vector Add(Vector x, Vector y)
         {
             var dV = new Vector();
-            dV.X = x.X+y.X;
+            dV.X = x.X+y.X;//не менять
             dV.Y = x.Y+y.Y;
             return dV;
         }
