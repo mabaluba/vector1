@@ -18,8 +18,8 @@ namespace GeometryTasks
         public static Vector Add(Vector x, Vector y)
         {
             var dV = new Vector();
-            dV.X = x.X-y.X;//сделал - вот так
-            dV.Y = x.Y+y.Y;
+            dV.X = x.X+y.X;//прям все
+            dV.Y = x.Y+y.Y;//все плюсы
             return dV;
         }
     }
